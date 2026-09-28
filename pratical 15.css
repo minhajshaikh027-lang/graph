@@ -1,0 +1,27 @@
+body {
+font-family: Arial, sans-serif; background-color: #f2f2f2; margin: 0;
+padding: 20px;
+}
+
+h1 {
+text-align: center; color: #333;
+}
+
+#data {
+max-width: 600px; margin: 20px auto;
+}
+ 
+
+#data div {
+background-color: white; padding: 15px;
+margin-bottom: 15px; border-radius: 8px;
+box-shadow: 0 2px 5px #ccc;
+}
+
+#data h3 {
+margin: 0 0 8px;
+color: #333;
+}
+#data p { margin: 5px 0;
+color: #555;
+}

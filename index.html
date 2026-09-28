@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Dynamic Web Page</title>
+<link rel="stylesheet" href="practical 15.css">
+<script src="practical 15.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>Student Data</h1>
+
+<div id="data"></div>
+
+<canvas id="myChart"></canvas>
+
+<script>
+const ctx = document.getElementById("myChart");
+
+new Chart(ctx, { type: "bar", data: {
+labels: ["Minhaj", "Armaan", "Rayyan"], datasets: [{
+label: "Marks", data: [85, 72, 90]
+}]
+}
+});
+</script>
+
+</body>
+</html>
